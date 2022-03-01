@@ -1,16 +1,10 @@
 // import using require
-const Shape=require("./shape");
+var Shape=require('./shape');
 // declare class
-class Circle extends Shape{
-    /* constructor(radius=4,color="red"){
-        super("red");
-        this.radius=radius; */
-    //}
+class Circle extends shape{
     calculateArea() {
-        return Math.PI*5*5;
+        return 3.14*4*4;
     }
 }
-
-
 // export class using module.exports
-module.exports.Circle=Circle;
+module.exports=Circle;
