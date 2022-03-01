@@ -1,5 +1,5 @@
 // declare class
-class Shape {
+class shape {
    drawShape(){
        console.log("Circle");
    }
@@ -11,4 +11,4 @@ class Shape {
    }
 }
 // export class using module.exports
-module.exports=Shape;
+module.exports=shape;
